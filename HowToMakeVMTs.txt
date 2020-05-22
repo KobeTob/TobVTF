@@ -1,0 +1,26 @@
+Pick your desired VTF
+	example: "crosshair1.vtf"
+
+Copy and paste VMT_TEMPLATE.vmt to create a copy
+
+Open the copied VMT file in notepad(++)
+	example: "VMT_TEMPLATE - copy.vmt"
+
+Change line 4 to be the same as the VTF name
+	example: 	"$basetexture"	"vgui\replay\thumbnails\crosshair1"
+
+Save VMT
+
+Rename this VMT to the same name as the VTF
+	example: "crosshair1.vmt"
+	
+You should now have:
+A VTF file
+A VMT file with the same name
+The VMT file contains that same name on line4
+Now you just need to open your weapon txt file and change the crosshair path in there
+
+Additional info:
+You don't need to use the included template vmt for this. 
+As long as you can find some sort of crosshair vmt anywhere it'll do the same. 
+They're all basically the same file.
